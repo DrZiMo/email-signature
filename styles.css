@@ -142,3 +142,239 @@ body {
     font-size: .9rem;
     opacity: .8;
 }
+
+@media (max-width: 840px) {
+    .main-content .image img {
+        width: 140px;
+        height: 140px;
+        border-width: 10px;
+    }
+
+    .info .name h1 {
+        font-size: 1.7rem;
+    }
+
+    .info .name p {
+        font-size: .8rem;
+    }
+
+    .box .rect {
+        left: -230px;
+    }
+
+    .contact-item .icon {
+        font-size: 1rem;
+    }
+
+    .contact-item .text {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 738px) {
+    .container {
+        width: 90%;
+    }
+
+    .logo {
+        gap: 7px;
+    }
+
+    .logo .circle {
+        width: 15px;
+        height: 15px;
+        border-width: 2px;
+        box-shadow: 0px 0px 0px 2px white;
+    }
+
+    .logo .logo-text {
+        line-height: 10px;
+    }
+
+    .logo .logo-text h5 {
+        font-size: .7rem;
+    }
+
+    .logo .logo-text p {
+        font-size: .4rem;
+        opacity: .5;
+    }
+
+    .main-content {
+        gap: 40px;
+        width: 100%;
+    }
+
+    .main-content .image img {
+        width: 100px;
+        height: 100px;
+        border-width: 5px;
+    }
+
+    .info {
+        gap: 30px;
+    }
+
+    .info .name h1 {
+        font-size: 1.5rem;
+    }
+
+    .info .name p {
+        font-size: .7rem;
+    }
+
+    .vr-line {
+        height: 120px;
+    }
+
+    .box .rect {
+        left: -170px;
+    }
+
+    .hr-line {
+        margin-block: 5px;
+    }
+
+    .contact-item .icon {
+        font-size: 1rem;
+    }
+
+    .contact-item .text {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 692px) {
+    .logo {
+        gap: 7px;
+    }
+
+    .logo .circle {
+        width: 10px;
+        height: 10px;
+        border-width: 1px;
+        box-shadow: 0px 0px 0px 1px white;
+    }
+
+    .logo .logo-text {
+        line-height: 6px;
+    }
+
+    .logo .logo-text h5 {
+        font-size: .5rem;
+    }
+
+    .logo .logo-text p {
+        font-size: .2rem;
+        opacity: .5;
+    }
+
+    .main-content {
+        gap: 20px;
+        padding-left: 40px;
+    }
+
+    .main-content .image img {
+        width: 80px;
+        height: 80px;
+        border-width: 3px;
+    }
+
+    .info {
+        gap: 20px;
+    }
+
+    .info .name h1 {
+        font-size: 1rem;
+    }
+
+    .info .name p {
+        font-size: .4rem;
+    }
+
+    .box .rect {
+        left: -120px;
+    }
+
+    .links i {
+        font-size: .7rem;
+    }
+
+    .contact-item {
+        gap: 10px
+    }
+
+    .contact-item .icon {
+        font-size: .6rem;
+    }
+
+    .contact-item .text {
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .logo {
+        gap: 3px
+    }
+
+    .logo .circle {
+        width: 6px;
+        height: 6px;
+        border-width: .4px;
+        box-shadow: 0px 0px 0px .4px white;
+    }
+
+    .logo .logo-text {
+        line-height: 3px;
+    }
+
+    .logo .logo-text h5 {
+        font-size: .2rem;
+    }
+
+    .logo .logo-text p {
+        font-size: .1rem;
+        opacity: .5;
+    }
+
+    .main-content {
+        gap: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-content .image img {
+        width: 60px;
+        height: 60px;
+        border-width: 3px;
+    }
+
+    .info {
+        gap: 20px;
+    }
+
+    .info .name h1 {
+        font-size: .8rem;
+    }
+
+    .info .name p {
+        font-size: .4rem;
+    }
+
+    .vr-line {
+        height: 100px;
+    }
+
+    .contact-item {
+        gap: 10px
+    }
+
+    .contact-item .icon {
+        font-size: .6rem;
+    }
+
+    .contact-item .text {
+        font-size: .6rem;
+    }
+}
