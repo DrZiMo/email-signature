@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #191B28;
+    --background-color: #DDDDDD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo .circle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0px 0px 0px 3px white;
+}
+
+.logo .logo-text {
+    line-height: 13px;
+}
+
+.logo .logo-text p {
+    font-size: .5rem;
+    opacity: .5;
+}
+
+.main-content {
+    padding-block: 60px;
+    padding-left: 80px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    z-index: -2;
+}
+
+.main-content .image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: 90%;
+    border: 15px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    overflow: hidden;
+}
+
+.box .rect {
+    position: absolute;
+    left: -210px;
+    width: 50%;
+    height: 100%;
+    z-index: -2;
+    background-color: var(--primary-color);
+    display: inline-block;
+    transform: skew(-20deg);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.info .name p {
+    opacity: .8;
+}
+
+.hr-line {
+    background-color: var(--primary-color);
+    height: 2px;
+    width: 50%;
+    border-radius: 50px;
+    margin-block: 8px;
+}
+
+.vr-line {
+    width: 2px;
+    height: 150px;
+    background-color: var(--primary-color);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-item .icon {
+    font-size: 1.2rem;
+}
+
+.contact-item .text {
+    font-size: .9rem;
+    opacity: .8;
+}
